@@ -29,7 +29,7 @@ import ma.projet.service.ClientService;
 @WebServlet(name = "ForgotPasswordController", urlPatterns = {"/forgotPassword"})
 public class ForgotPasswordController extends HttpServlet {
  static final String username = "cherkaniaymen4@gmail.com"; 
-    static final String password = "zifo qdkr gfrr qipl";
+    static final String password = "";
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
