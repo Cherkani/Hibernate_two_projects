@@ -28,7 +28,7 @@ import ma.projet.service.ClientService;
 
 @WebServlet(name = "ForgotPasswordController", urlPatterns = {"/forgotPassword"})
 public class ForgotPasswordController extends HttpServlet {
- static final String username = "cherkaniaymen4@gmail.com"; 
+ static final String username = ""; 
     static final String password = "";
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
